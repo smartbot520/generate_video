@@ -136,11 +136,11 @@ for scene_file in SCENES_FILES:
         subtitle = TextClip(
             scene['subtitle'],
             fontsize=60,
-            font='Arial-Bold',
+            font='DejaVu-Sans',  # Use a safe system font
             color='white',
             size=(1080, None),
-            method='caption'
-        ).set_duration(duration).set_position(("center", "bottom")).margin(bottom=50, opacity=0).fadein(1).fadeout(1)
+            method='caption'     # Avoid ImageMagick
+         ).set_duration(duration).set_position(("center", "bottom")).margin(bottom=50, opacity=0).fadein(1).fadeout(1)
 
         scene_with_text = CompositeVideoClip([scene_video, subtitle]).fadein(1).fadeout(1)
         scene_clips.append(scene_with_text)
