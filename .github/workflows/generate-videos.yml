@@ -5,13 +5,13 @@ on:
 
 jobs:
   generate-videos:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-22.04  # Azure SDK works reliably on this
 
     steps:
       - name: 📥 Checkout Repository
         uses: actions/checkout@v3
 
-      - name: 🧱 Install ImageMagick + Fix Security Policy
+      - name: 🔧 Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -22,28 +22,29 @@ jobs:
             libasound2-dev \
             libasound2-plugins \
             libcurl4-openssl-dev \
-            libpython3.10 \
-            libpython3.10-dev \
-            imagemagick \
-            fonts-dejavu-core
-          # Fix ImageMagick security policy to allow text rendering
-          sudo sed -i 's/rights="none" pattern="TEXT"/rights="read|write"/' /etc/ImageMagick-6/policy.xml || true
-          sudo sed -i 's/rights="none" pattern="LABEL"/rights="read|write"/' /etc/ImageMagick-6/policy.xml || true
-          sudo sed -i 's/rights="none" pattern="URL"/rights="read|write"/' /etc/ImageMagick-6/policy.xml || true
-          sudo sed -i 's/rights="none" pattern="HTTPS"/rights="read|write"/' /etc/ImageMagick-6/policy.xml || true
-          sudo sed -i 's/rights="none" pattern="HTTP"/rights="read|write"/' /etc/ImageMagick-6/policy.xml || true
+            ffmpeg \
+            imagemagick
+
+          # 🔓 Fix ImageMagick security policy to allow subtitle rendering (optional if subtitles are off)
+          sudo sed -i 's/rights="none" pattern="PDF"/rights="read|write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="LABEL"/rights="read|write" pattern="LABEL"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="PS"/rights="read|write" pattern="PS"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="XPS"/rights="read|write" pattern="XPS"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="MSL"/rights="read|write" pattern="MSL"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="TEXT"/rights="read|write" pattern="TEXT"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="X11"/rights="read|write" pattern="X11"/' /etc/ImageMagick-6/policy.xml
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: 📦 Install Python Dependencies
+      - name: 📦 Install Python dependencies
         run: |
-          pip install --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 🎬 Run Video Generator
+      - name: 🎬 Run Video Generator Script
         env:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_REGION: ${{ secrets.AZURE_REGION }}
@@ -51,8 +52,8 @@ jobs:
         run: |
           python video_generator.py
 
-      - name: 📤 Upload Final Videos
+      - name: 📤 Upload Rendered Videos
         uses: actions/upload-artifact@v4
         with:
-          name: rendered-videos
+          name: generated-videos
           path: output/
