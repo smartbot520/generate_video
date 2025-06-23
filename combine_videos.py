@@ -1,7 +1,7 @@
 import os
 from moviepy.editor import *
 
-INTRO_VIDEO = "Intro_Shorts.mp4"
+INTRO_VIDEO = "Intro-Shorts.mp4"
 OUTRO_VIDEO = "Outro_Shorts.mp4"
 OUTPUT_DIR = "output"
 FINAL_DIR = "final_combined"
