@@ -57,12 +57,6 @@ jobs:
           name: generated-output
           path: output
 
-      - name: 🧪 Debug: List downloaded output folder
-        run: |
-          echo "Current directory: $(pwd)"
-          echo "Listing output directory contents:"
-          ls -R output/
-
       - name: 🎬 Combine with Intro/Outro
         run: |
           python combine_videos.py
