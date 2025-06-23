@@ -37,13 +37,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: 🛠️ Generate Videos from scenes/*.json
-      env:
-        AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
-        AZURE_REGION: ${{ secrets.AZURE_REGION }}
-        PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-      run: |
-        python video_generator.py
+    # - name: 🛠️ Generate Videos from scenes/*.json
+    #   env:
+    #     AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+    #     AZURE_REGION: ${{ secrets.AZURE_REGION }}
+    #     PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+    #   run: |
+    #     python video_generator.py
 
     - name: 📦 Upload Generated Output as Artifact
       uses: actions/upload-artifact@v4
@@ -56,6 +56,12 @@ jobs:
       with:
         name: generated-output
         path: output
+
+    - name: 🧪 Debug: List downloaded output folder
+      run: |
+        echo "Current directory: $(pwd)"
+        echo "Listing output directory:"
+        ls -R output/
 
     - name: 🎬 Combine with Intro/Outro
       run: |
