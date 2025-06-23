@@ -1,0 +1,84 @@
+name: 🎬 Full YouTube Video Flow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  video-process-upload:
+    runs-on: ubuntu-22.04
+
+    steps:
+    - name: 📥 Checkout Repo
+      uses: actions/checkout@v3
+
+    - name: 🔧 Install System Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y \
+          build-essential \
+          libssl-dev \
+          libffi-dev \
+          python3-dev \
+          libasound2-dev \
+          libasound2-plugins \
+          libcurl4-openssl-dev \
+          libpython3.10 \
+          libpython3.10-dev \
+          imagemagick \
+          ffmpeg
+
+    - name: 🐍 Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: 📦 Install Python Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # - name: 🛠️ Generate Videos from scenes/*.json
+    #   env:
+    #     AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+    #     AZURE_REGION: ${{ secrets.AZURE_REGION }}
+    #     PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+    #   run: |
+    #     python video_generator.py
+
+    - name: 📦 Upload Generated Output as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-output
+        path: output/
+
+    - name: 📥 Download Output for Combining
+      uses: actions/download-artifact@v4
+      with:
+        name: generated-output
+        path: output
+
+    - name: 🧪 Debug: List downloaded output folder
+      run: |
+        echo "Current directory: $(pwd)"
+        echo "Listing output directory:"
+        ls -R output/
+
+    - name: 🎬 Combine with Intro/Outro
+      run: |
+        python combine_videos.py
+
+    - name: 📤 Upload Combined Videos to YouTube
+      env:
+        GOOGLE_API_TOKEN_B64: ${{ secrets.YOUTUBE_TOKEN_B64 }}
+      run: |
+        echo "$GOOGLE_API_TOKEN_B64" | base64 -d > youtube_token.pickle
+        python upload_all_to_youtube.py
+
+    - name: 🧹 Clean up output and final_combined folders
+      run: |
+        rm -rf output/
+        rm -rf final_combined/
+
+    - name: 🧽 Clean up used scenes JSON files
+      run: |
+        rm -f scenes/*.json
