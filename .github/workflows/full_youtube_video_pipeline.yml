@@ -37,7 +37,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # Uncomment this step to regenerate videos from scenes/*.json
     # - name: 🛠️ Generate Videos from scenes/*.json
     #   env:
     #     AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
@@ -46,17 +45,22 @@ jobs:
     #   run: |
     #     python video_generator.py
 
-    - name: 📥 Download Previously Generated Output
+    - name: 📦 Upload Generated Output as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-output
+        path: output/
+
+    - name: 📥 Download Output for Combining
       uses: actions/download-artifact@v4
       with:
         name: generated-output
         path: output
 
-    - name: 🧪 Debug: List Downloaded Output Folder
+    - name: 🧪 Debug: List downloaded output folder
       run: |
         echo "Current directory: $(pwd)"
-        ls -l
-        echo "📂 Output folder structure:"
+        echo "Listing output directory:"
         ls -R output/
 
     - name: 🎬 Combine with Intro/Outro
@@ -70,13 +74,11 @@ jobs:
         echo "$GOOGLE_API_TOKEN_B64" | base64 -d > youtube_token.pickle
         python upload_all_to_youtube.py
 
-    - name: 🧹 Clean up Output and Combined Videos
-      if: success()
+    - name: 🧹 Clean up output and final_combined folders
       run: |
         rm -rf output/
         rm -rf final_combined/
 
-    - name: 🧽 Clean up Used scenes/*.json Files
-      if: success()
+    - name: 🧽 Clean up used scenes JSON files
       run: |
         rm -f scenes/*.json
