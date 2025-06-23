@@ -37,17 +37,17 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: 🛠️ Generate Videos from scenes/*.json
-      env:
-        AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
-        AZURE_REGION: ${{ secrets.AZURE_REGION }}
-        PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-      run: |
-        python video_generator.py
+    # - name: 🛠️ Generate Videos from scenes/*.json
+    #   env:
+    #     AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+    #     AZURE_REGION: ${{ secrets.AZURE_REGION }}
+    #     PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+    #   run: |
+    #     python video_generator.py
 
     - name: 🎬 Combine with Intro/Outro
       run: |
-        python combine_with_intro_outro.py
+        python combine_videos.py
 
     - name: 📤 Upload Combined Videos to YouTube
       env:
