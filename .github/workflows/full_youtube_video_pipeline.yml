@@ -72,3 +72,7 @@ jobs:
       run: |
         rm -rf output/
         rm -rf final_combined/
+
+    - name: 🧽 Clean up used scenes JSON files
+      run: |
+        rm -f scenes/*.json
