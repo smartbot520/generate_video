@@ -1,62 +1,69 @@
-[
-  {
-    "text": "మీకు తెలుసా? పురాతన దేవాలయాల్లో శబ్దంతో రాళ్లు కాధిలే టెక్నాలజీ ఉండేదన్న నమ్మకం ఉంది.",
-    "image_keyword": "ancient sound technology",
-    "subtitle": "Did you know? Ancient temples are believed to have used sound to move stone."
+{
+  "metadata": {
+    "title": "🔊 శబ్దంతో రాళ్లు కదిలిన టెక్నాలజీ – నిజమేనా?",
+    "description": "పురాతన దేవాలయాల్లో శబ్దంతో తలుపులు తెరవడమా? శబ్ద శక్తి రహస్యం తెలుగులో తెలుసుకోండి! #telugu #science #shorts",
+    "tags": ["telugu", "shorts", "ancient sound", "temple science", "hidden technology"]
   },
-  {
-    "text": "ఇది ఊహ కాదు – కొన్ని శిల్పాలు, శబ్దాలకి స్పందిస్తూ కదిలే విధంగా నిర్మించబడ్డాయి.",
-    "image_keyword": "sound activated carvings",
-    "subtitle": "This isn’t fiction – some carvings actually respond to specific sound frequencies."
-  },
-  {
-    "text": "హంపీలోని విజయవిట్టల దేవాలయంలోని సంగీత స్తంభాలు, వీటిని తట్టినప్పుడు వాద్యాల్లా శబ్దిస్తాయి.",
-    "image_keyword": "hampi musical pillars",
-    "subtitle": "At Hampi’s Vittala Temple, musical pillars ring like instruments when struck."
-  },
-  {
-    "text": "ఈ శబ్ద తరంగాలను ఉపయోగించి తలుపులు తెరిచే గది నిర్మాణాలపై ఆధారాలు కనిపిస్తున్నాయి.",
-    "image_keyword": "sound activated secret doors",
-    "subtitle": "Some structures appear to have doors that open only with certain sound vibrations."
-  },
-  {
-    "text": "శబ్దం వల్ల రాళ్లను కదల్చడం – ఇది 'సోనిక్ లెవిటేషన్'గా శాస్త్రంలో పరిగణించబడుతోంది.",
-    "image_keyword": "sonic levitation ancient",
-    "subtitle": "Moving stone through sound is now studied as 'Sonic Levitation' in science."
-  },
-  {
-    "text": "ఈ శక్తిని మన పూర్వీకులు ఎలా కనుగొన్నారు? ఎందుకు దీన్ని మనం మరిచిపోయాం?",
-    "image_keyword": "forgotten sonic power",
-    "subtitle": "How did our ancestors discover this? And why was it forgotten?"
-  },
-  {
-    "text": "ఈజిప్టులోనూ ఇటుకలను శబ్దంతో ఎత్తేవారని కొందరు పరిశోధకులు అనుమానిస్తున్నారు.",
-    "image_keyword": "egypt sound lifting stones",
-    "subtitle": "Some researchers suggest even the Egyptians used sound to lift heavy stones."
-  },
-  {
-    "text": "శబ్ద తరంగాలు రహస్య తాళాలకు, ప్రాచీన కోడింగ్ వ్యవస్థలకు చక్కటి చిహ్నంగా మారాయి.",
-    "image_keyword": "sound based coding systems",
-    "subtitle": "Sound waves may have been used as secret codes and keys in ancient times."
-  },
-  {
-    "text": "దేవాలయ నిర్మాణాల్లో శబ్ద ప్రతిధ్వని గుణాలను చాలా నిశితంగా డిజైన్ చేశారు.",
-    "image_keyword": "temple echo sound design",
-    "subtitle": "Temple architecture precisely uses echo and resonance effects."
-  },
-  {
-    "text": "ఇది కేవలం కళ లేదా ఆచారం కాదు – ఇది ఒక శాస్త్రీయ విజ్ఞానం.",
-    "image_keyword": "temple science sound tech",
-    "subtitle": "It’s not just art or ritual – it’s deep scientific knowledge."
-  },
-  {
-    "text": "ఈ శబ్ద శక్తిని తిరిగి కనుగొంటే, మన భవిష్యత్తు నిర్మాణ శాస్త్రంలో విప్లవం తేనట్టే!",
-    "image_keyword": "future of construction sound",
-    "subtitle": "If rediscovered, this could revolutionize future construction!"
-  },
-  {
-    "text": "శబ్దం ఒక రహస్య తాళం లా మారినప్పుడు – మనం మానవ చరిత్రను కొత్త దృక్పథంలో చూడవచ్చు.",
-    "image_keyword": "sound unlocks mystery",
-    "subtitle": "When sound becomes the key, we begin to see history from a whole new lens."
-  }
-]
+  "scenes": [
+    {
+      "text": "మీకు తెలుసా? పురాతన దేవాలయాల్లో శబ్దంతో రాళ్లు కదలిపెట్టే టెక్నాలజీ ఉండేదన్న నమ్మకం ఉంది.",
+      "image_keyword": "ancient sound technology",
+      "subtitle": "Did you know? Ancient temples are believed to have used sound to move stone."
+    },
+    {
+      "text": "ఇది ఊహ కాదు – కొన్ని శిల్పాలు, శబ్దాలకి స్పందిస్తూ కదిలే విధంగా నిర్మించబడ్డాయి.",
+      "image_keyword": "sound activated carvings",
+      "subtitle": "This isn’t fiction – some carvings actually respond to specific sound frequencies."
+    },
+    {
+      "text": "హంపీలోని విజయవిట్టల దేవాలయంలోని సంగీత స్తంభాలు, వీటిని తట్టినప్పుడు వాద్యాల్లా శబ్దిస్తాయి.",
+      "image_keyword": "hampi musical pillars",
+      "subtitle": "At Hampi’s Vittala Temple, musical pillars ring like instruments when struck."
+    },
+    {
+      "text": "ఈ శబ్ద తరంగాలను ఉపయోగించి తలుపులు తెరిచే గది నిర్మాణాలపై ఆధారాలు కనిపిస్తున్నాయి.",
+      "image_keyword": "sound activated secret doors",
+      "subtitle": "Some structures appear to have doors that open only with certain sound vibrations."
+    },
+    {
+      "text": "శబ్దం వల్ల రాళ్లను కదల్చడం – ఇది 'సోనిక్ లెవిటేషన్'గా శాస్త్రంలో పరిగణించబడుతోంది.",
+      "image_keyword": "sonic levitation ancient",
+      "subtitle": "Moving stone through sound is now studied as 'Sonic Levitation' in science."
+    },
+    {
+      "text": "ఈ శక్తిని మన పూర్వీకులు ఎలా కనుగొన్నారు? ఎందుకు దీన్ని మనం మరిచిపోయాం?",
+      "image_keyword": "forgotten sonic power",
+      "subtitle": "How did our ancestors discover this? And why was it forgotten?"
+    },
+    {
+      "text": "ఈజిప్టులోనూ ఇటుకలను శబ్దంతో ఎత్తేవారని కొందరు పరిశోధకులు అనుమానిస్తున్నారు.",
+      "image_keyword": "egypt sound lifting stones",
+      "subtitle": "Some researchers suggest even the Egyptians used sound to lift heavy stones."
+    },
+    {
+      "text": "శబ్ద తరంగాలు రహస్య తాళాలకు, ప్రాచీన కోడింగ్ వ్యవస్థలకు చక్కటి చిహ్నంగా మారాయి.",
+      "image_keyword": "sound based coding systems",
+      "subtitle": "Sound waves may have been used as secret codes and keys in ancient times."
+    },
+    {
+      "text": "దేవాలయ నిర్మాణాల్లో శబ్ద ప్రతిధ్వని గుణాలను చాలా నిశితంగా డిజైన్ చేశారు.",
+      "image_keyword": "temple echo sound design",
+      "subtitle": "Temple architecture precisely uses echo and resonance effects."
+    },
+    {
+      "text": "ఇది కేవలం కళ లేదా ఆచారం కాదు – ఇది ఒక శాస్త్రీయ విజ్ఞానం.",
+      "image_keyword": "temple science sound tech",
+      "subtitle": "It’s not just art or ritual – it’s deep scientific knowledge."
+    },
+    {
+      "text": "ఈ శబ్ద శక్తిని తిరిగి కనుగొంటే, మన భవిష్యత్తు నిర్మాణ శాస్త్రంలో విప్లవం తేనట్టే!",
+      "image_keyword": "future of construction sound",
+      "subtitle": "If rediscovered, this could revolutionize future construction!"
+    },
+    {
+      "text": "శబ్దం ఒక రహస్య తాళం లా మారినప్పుడు – మనం మానవ చరిత్రను కొత్త దృక్పథంలో చూడవచ్చు.",
+      "image_keyword": "sound unlocks mystery",
+      "subtitle": "When sound becomes the key, we begin to see history from a whole new lens."
+    }
+  ]
+}
