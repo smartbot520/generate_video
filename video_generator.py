@@ -77,14 +77,22 @@ for scene_file in SCENES_FILES:
     OUT_VIDEO = os.path.join(OUTPUT_SUBDIR, 'final_video.mp4')
 
     with open(SCENES_FILE, 'r', encoding='utf-8') as f:
-        scenes = json.load(f)
+        content = json.load(f)
 
-    scene_texts = [scene['text'] for scene in scenes]
+    # ✅ Extract only the "scenes" array to process
+    scenes = content.get("scenes", [])
+    if not scenes:
+        print(f"⚠️ No scenes found in {scene_file}")
+        continue
+
+    scene_texts = [scene.get('text', '') for scene in scenes]
     full_script = ' '.join(scene_texts)
 
     print("🖼️ Downloading images from Pexels...")
     for idx, scene in enumerate(scenes):
-        download_images(scene['image_keyword'], idx, IMAGE_DIR)
+        keyword = scene.get("image_keyword", "")
+        if keyword:
+            download_images(keyword, idx, IMAGE_DIR)
 
     print("🔊 Generating TTS from Telugu text...")
     generate_tts(full_script, FULL_AUDIO)
