@@ -1,62 +1,69 @@
-[
-  {
-    "text": "మీకు తెలుసా? పురాతన భారతదేశంలో విమానాలు వాడేవారని విశ్వసించే ఆధారాలు ఉన్నాయి.",
-    "image_keyword": "ancient indian vimana",
-    "subtitle": "Did you know? There is evidence that ancient India had flying machines called Vimanas."
+{
+  "metadata": {
+    "title": "✈️ పురాతన భారతదేశ విమానాలు నిజమేనా?",
+    "description": "వైమానిక శాస్త్రం వాస్తవమేనా? పురాతన భారతదేశ విమానాల రహస్యం గురించి తెలుగులో తెలుసుకోండి. #vimana #telugu #history",
+    "tags": ["telugu", "vimana", "ancient india", "lost technology", "history", "shorts"]
   },
-  {
-    "text": "ఈ విషయాన్ని 'వైమానిక శాస్త్రం' అనే పాత గ్రంథంలో వివరంగా వర్ణించారు, ఇది వేద కాలానికి చెందినదిగా చెప్పబడుతోంది.",
-    "image_keyword": "vaimanika shastra ancient book",
-    "subtitle": "This is detailed in an ancient text called Vaimanika Shastra, said to belong to the Vedic era."
-  },
-  {
-    "text": "ఈ గ్రంథంలో విమానాల ఆకారాలు, వాటి ఇంధనం, ఆపరేషన్ విధానం అన్నీ కూడా సాంకేతికంగా వివరించబడ్డాయి.",
-    "image_keyword": "vimana design schematics",
-    "subtitle": "The text includes designs, fuel types, and even operation methods of these flying machines."
-  },
-  {
-    "text": "విమానాలు కేవలం గగనతలంలోనే కాకుండా, సముద్రాలపై, భూమి లోపల కూడా ప్రయాణించగలవని వర్ణించబడింది.",
-    "image_keyword": "multi travel vimanas",
-    "subtitle": "These Vimanas were described as capable of flying, floating on water, and even underground travel."
-  },
-  {
-    "text": "ఈ వాహనాల కోసం పగడపు రాయిలతో తయారు చేసిన ఇంధనం, జీవశక్తి, ధ్వని తరంగాలు వాడేవారని పేర్కొనబడింది.",
-    "image_keyword": "vimana ancient energy source",
-    "subtitle": "They were powered by crystals, life energy, and sound frequencies, as per the texts."
-  },
-  {
-    "text": "ఇలాంటి టెక్నాలజీ మనం కనుక్కోవడానికి శతాబ్దాల సమయం పడుతుంది అనిపిస్తుంది.",
-    "image_keyword": "futuristic ancient tech",
-    "subtitle": "Such technology may take centuries for us to rediscover, even today."
-  },
-  {
-    "text": "హంపీ, ఎల్లోరా లాంటి ప్రాచీన ప్రదేశాల్లో విమానాల ఆకారాలతో కూడిన శిల్పాలు ఇప్పటికీ కనిపిస్తున్నాయి.",
-    "image_keyword": "hampi vimana carvings",
-    "subtitle": "Vimana-like carvings are still visible in places like Hampi and Ellora."
-  },
-  {
-    "text": "ఈ శిల్పాల వెనుక ఉన్న విజ్ఞానం కోల్పోయిందా? లేక దాచిపెట్టబడిందా అనే అనుమానం ఆలోచించాల్సిన విషయం.",
-    "image_keyword": "lost or hidden technology",
-    "subtitle": "We must ask—was this knowledge lost, or deliberately hidden?"
-  },
-  {
-    "text": "కొన్ని విమానాలు దృష్టికి కనిపించకుండా ప్రయాణించగలవని గ్రంథాల్లో ఉంది.",
-    "image_keyword": "invisible flying machines",
-    "subtitle": "Some Vimanas were described as capable of becoming invisible during flight."
-  },
-  {
-    "text": "ఇది కేవలం కల్పనా కాదు – ఎందుకంటే పాత గ్రంథాల్లో మానవ నిర్మిత శక్తులకు అందని వివరాలు ఉన్నాయి.",
-    "image_keyword": "ancient knowledge unexplained",
-    "subtitle": "It may not be mere fiction—because these texts describe mechanisms beyond our understanding."
-  },
-  {
-    "text": "మానవుని జ్ఞానం ఎంత లోతుగా ఉండిందో ఈ విమానాల కథలు తెలియజేస్తున్నాయి.",
-    "image_keyword": "depth of ancient wisdom",
-    "subtitle": "The story of Vimanas shows how deep human knowledge was in ancient times."
-  },
-  {
-    "text": "వైమానిక శాస్త్రం ఒక పుస్తకం కాదు – అది మన పూర్వీకుల శాస్త్రీయ విజ్ఞానానికి నిలువెత్తు సాక్ష్యం!",
-    "image_keyword": "vaimanika ancient proof",
-    "subtitle": "Vaimanika Shastra isn’t just a book – it’s a standing proof of ancient scientific wisdom!"
-  }
-]
+  "scenes": [
+    {
+      "text": "మీకు తెలుసా? పురాతన భారతదేశంలో విమానాలు వాడేవారని విశ్వసించే ఆధారాలు ఉన్నాయి.",
+      "image_keyword": "ancient indian vimana",
+      "subtitle": "Did you know? There is evidence that ancient India had flying machines called Vimanas."
+    },
+    {
+      "text": "ఈ విషయాన్ని 'వైమానిక శాస్త్రం' అనే పాత గ్రంథంలో వివరంగా వర్ణించారు, ఇది వేద కాలానికి చెందినదిగా చెప్పబడుతోంది.",
+      "image_keyword": "vaimanika shastra ancient book",
+      "subtitle": "This is detailed in an ancient text called Vaimanika Shastra, said to belong to the Vedic era."
+    },
+    {
+      "text": "ఈ గ్రంథంలో విమానాల ఆకారాలు, వాటి ఇంధనం, ఆపరేషన్ విధానం అన్నీ కూడా సాంకేతికంగా వివరించబడ్డాయి.",
+      "image_keyword": "vimana design schematics",
+      "subtitle": "The text includes designs, fuel types, and even operation methods of these flying machines."
+    },
+    {
+      "text": "విమానాలు కేవలం గగనతలంలోనే కాకుండా, సముద్రాలపై, భూమి లోపల కూడా ప్రయాణించగలవని వర్ణించబడింది.",
+      "image_keyword": "multi travel vimanas",
+      "subtitle": "These Vimanas were described as capable of flying, floating on water, and even underground travel."
+    },
+    {
+      "text": "ఈ వాహనాల కోసం పగడపు రాయిలతో తయారు చేసిన ఇంధనం, జీవశక్తి, ధ్వని తరంగాలు వాడేవారని పేర్కొనబడింది.",
+      "image_keyword": "vimana ancient energy source",
+      "subtitle": "They were powered by crystals, life energy, and sound frequencies, as per the texts."
+    },
+    {
+      "text": "ఇలాంటి టెక్నాలజీ మనం కనుక్కోవడానికి శతాబ్దాల సమయం పడుతుంది అనిపిస్తుంది.",
+      "image_keyword": "futuristic ancient tech",
+      "subtitle": "Such technology may take centuries for us to rediscover, even today."
+    },
+    {
+      "text": "హంపీ, ఎల్లోరా లాంటి ప్రాచీన ప్రదేశాల్లో విమానాల ఆకారాలతో కూడిన శిల్పాలు ఇప్పటికీ కనిపిస్తున్నాయి.",
+      "image_keyword": "hampi vimana carvings",
+      "subtitle": "Vimana-like carvings are still visible in places like Hampi and Ellora."
+    },
+    {
+      "text": "ఈ శిల్పాల వెనుక ఉన్న విజ్ఞానం కోల్పోయిందా? లేక దాచిపెట్టబడిందా అనే అనుమానం ఆలోచించాల్సిన విషయం.",
+      "image_keyword": "lost or hidden technology",
+      "subtitle": "We must ask—was this knowledge lost, or deliberately hidden?"
+    },
+    {
+      "text": "కొన్ని విమానాలు దృష్టికి కనిపించకుండా ప్రయాణించగలవని గ్రంథాల్లో ఉంది.",
+      "image_keyword": "invisible flying machines",
+      "subtitle": "Some Vimanas were described as capable of becoming invisible during flight."
+    },
+    {
+      "text": "ఇది కేవలం కల్పనా కాదు – ఎందుకంటే పాత గ్రంథాల్లో మానవ నిర్మిత శక్తులకు అందని వివరాలు ఉన్నాయి.",
+      "image_keyword": "ancient knowledge unexplained",
+      "subtitle": "It may not be mere fiction—because these texts describe mechanisms beyond our understanding."
+    },
+    {
+      "text": "మానవుని జ్ఞానం ఎంత లోతుగా ఉండిందో ఈ విమానాల కథలు తెలియజేస్తున్నాయి.",
+      "image_keyword": "depth of ancient wisdom",
+      "subtitle": "The story of Vimanas shows how deep human knowledge was in ancient times."
+    },
+    {
+      "text": "వైమానిక శాస్త్రం ఒక పుస్తకం కాదు – అది మన పూర్వీకుల శాస్త్రీయ విజ్ఞానానికి నిలువెత్తు సాక్ష్యం!",
+      "image_keyword": "vaimanika ancient proof",
+      "subtitle": "Vaimanika Shastra isn’t just a book – it’s a standing proof of ancient scientific wisdom!"
+    }
+  ]
+}
