@@ -1,0 +1,119 @@
+name: 🎬 Full YouTube Flow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-22.04
+    outputs:
+      artifact-id: ${{ steps.upload-artifact.outputs.artifact-id }}
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 🔧 Install System Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            libssl-dev \
+            libffi-dev \
+            python3-dev \
+            libasound2-dev \
+            libasound2-plugins \
+            libcurl4-openssl-dev \
+            libpython3.10 \
+            libpython3.10-dev \
+            imagemagick \
+            ffmpeg
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 📦 Install Python Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🛠️ Generate Videos
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_REGION: ${{ secrets.AZURE_REGION }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: python video_generator.py
+
+      - name: 📦 Upload Generated Videos
+        id: upload-artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-output
+          path: output/
+
+
+  combine:
+    runs-on: ubuntu-22.04
+    needs: generate
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 📥 Download Generated Videos
+        uses: actions/download-artifact@v4
+        with:
+          name: generated-output
+          path: output
+
+      - name: Install Combine Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg imagemagick
+          pip install moviepy
+
+      - name: 🎬 Combine with Intro/Outro
+        run: python combine_videos.py
+
+      - name: 📦 Upload Combined Videos
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-combined
+          path: final_combined/
+
+
+  upload:
+    runs-on: ubuntu-22.04
+    needs: combine
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 📥 Download Combined Videos
+        uses: actions/download-artifact@v4
+        with:
+          name: final-combined
+          path: final_combined
+
+      - name: Install Dependencies
+        run: |
+          pip install google-api-python-client google-auth-oauthlib
+
+      - name: 🔑 Restore YouTube Token
+        env:
+          GOOGLE_API_TOKEN_B64: ${{ secrets.YOUTUBE_TOKEN_B64 }}
+        run: |
+          echo "$GOOGLE_API_TOKEN_B64" | base64 -d > youtube_token.pickle
+
+      - name: 📦 Install Upload Dependencies
+        run: pip install google-api-python-client google-auth-oauthlib
+
+      - name: 📤 Upload to YouTube
+        run: python upload_all_to_youtube.py
+
+      - name: 🧹 Clean Output + Combined Folders
+        run: |
+          rm -rf output/
+          rm -rf final_combined/
+
+      - name: 🧽 Delete scenes JSON files
+        run: rm -f scenes/*.json
