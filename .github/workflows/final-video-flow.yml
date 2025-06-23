@@ -85,39 +85,39 @@ jobs:
           path: final_combined/
 
 
-  upload:
-    runs-on: ubuntu-22.04
-    needs: combine
+  # upload:
+  #   runs-on: ubuntu-22.04
+  #   needs: combine
 
-    steps:
-      - uses: actions/checkout@v3
+  #   steps:
+  #     - uses: actions/checkout@v3
 
-      - name: 📥 Download Combined Videos
-        uses: actions/download-artifact@v4
-        with:
-          name: final-combined
-          path: final_combined
+  #     - name: 📥 Download Combined Videos
+  #       uses: actions/download-artifact@v4
+  #       with:
+  #         name: final-combined
+  #         path: final_combined
 
-      - name: Install Dependencies
-        run: |
-          pip install google-api-python-client google-auth-oauthlib
+  #     - name: Install Dependencies
+  #       run: |
+  #         pip install google-api-python-client google-auth-oauthlib
 
-      - name: 🔑 Restore YouTube Token
-        env:
-          GOOGLE_API_TOKEN_B64: ${{ secrets.YOUTUBE_TOKEN_B64 }}
-        run: |
-          echo "$GOOGLE_API_TOKEN_B64" | base64 -d > youtube_token.pickle
+  #     - name: 🔑 Restore YouTube Token
+  #       env:
+  #         GOOGLE_API_TOKEN_B64: ${{ secrets.YOUTUBE_TOKEN_B64 }}
+  #       run: |
+  #         echo "$GOOGLE_API_TOKEN_B64" | base64 -d > youtube_token.pickle
 
-      - name: 📦 Install Upload Dependencies
-        run: pip install google-api-python-client google-auth-oauthlib
+  #     - name: 📦 Install Upload Dependencies
+  #       run: pip install google-api-python-client google-auth-oauthlib
 
-      - name: 📤 Upload to YouTube
-        run: python upload_all_to_youtube.py
+  #     - name: 📤 Upload to YouTube
+  #       run: python upload_all_to_youtube.py
 
-      - name: 🧹 Clean Output + Combined Folders
-        run: |
-          rm -rf output/
-          rm -rf final_combined/
+  #     - name: 🧹 Clean Output + Combined Folders
+  #       run: |
+  #         rm -rf output/
+  #         rm -rf final_combined/
 
-      - name: 🧽 Delete scenes JSON files
-        run: rm -f scenes/*.json
+  #     - name: 🧽 Delete scenes JSON files
+  #       run: rm -f scenes/*.json
