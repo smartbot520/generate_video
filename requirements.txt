@@ -2,3 +2,7 @@ moviepy==1.0.3
 requests==2.31.0
 azure-cognitiveservices-speech==1.33.0
 Pillow<10.0.0
+google-auth
+google-auth-oauthlib
+google-api-python-client
+requests
