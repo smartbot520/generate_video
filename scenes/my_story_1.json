@@ -1,69 +1,39 @@
 {
   "metadata": {
-    "title": "✈️ పురాతన భారతదేశ విమానాలు నిజమేనా?",
-    "description": "వైమానిక శాస్త్రం వాస్తవమేనా? పురాతన భారతదేశ విమానాల రహస్యం గురించి తెలుగులో తెలుసుకోండి. #vimana #telugu #history",
-    "tags": ["telugu", "vimana", "ancient india", "lost technology", "history", "shorts"]
+    "title": "AI అంటే ఏమిటి? - AI ట్రెండ్స్: పార్ట్ 1",
+    "description": "కృత్రిమ మేధస్సు (AI) అంటే ఏమిటి? అది ఎలా పనిచేస్తుంది? ఈ వీడియోలో AI ప్రపంచంలోకి అడుగు పెడదాం. #AITrends #AIExplained #TeluguAI #TechTelugu #YouTubeShorts",
+    "tags": ["telugu", "AI trends", "what is AI", "artificial intelligence", "tech", "shorts", "part 1"]
   },
   "scenes": [
     {
-      "text": "మీకు తెలుసా? పురాతన భారతదేశంలో విమానాలు వాడేవారని విశ్వసించే ఆధారాలు ఉన్నాయి.",
-      "image_keyword": "ancient indian vimana",
-      "subtitle": "Did you know? There is evidence that ancient India had flying machines called Vimanas."
+      "text": "నమస్కారం! ఈరోజు మనం మన చుట్టూ ఉన్న ప్రపంచాన్ని మారుస్తున్న ఒక విప్లవాత్మక సాంకేతికత గురించి తెలుసుకుందాం: అదే ఆర్టిఫిషియల్ ఇంటెలిజెన్స్, లేదా కృత్రిమ మేధస్సు.",
+      "image_keyword": "futuristic AI concept",
+      "subtitle": "Hello! Today we'll explore a revolutionary technology: Artificial Intelligence."
     },
     {
-      "text": "ఈ విషయాన్ని 'వైమానిక శాస్త్రం' అనే పాత గ్రంథంలో వివరంగా వర్ణించారు, ఇది వేద కాలానికి చెందినదిగా చెప్పబడుతోంది.",
-      "image_keyword": "vaimanika shastra ancient book",
-      "subtitle": "This is detailed in an ancient text called Vaimanika Shastra, said to belong to the Vedic era."
+      "text": "మరింత సులభంగా చెప్పాలంటే, AI అంటే యంత్రాలు మానవుల్లా ఆలోచించడం, నేర్చుకోవడం మరియు సమస్యలను పరిష్కరించడం.",
+      "image_keyword": "robot thinking brain gears",
+      "subtitle": "Simply put, AI means machines thinking, learning, and solving problems like humans."
     },
     {
-      "text": "ఈ గ్రంథంలో విమానాల ఆకారాలు, వాటి ఇంధనం, ఆపరేషన్ విధానం అన్నీ కూడా సాంకేతికంగా వివరించబడ్డాయి.",
-      "image_keyword": "vimana design schematics",
-      "subtitle": "The text includes designs, fuel types, and even operation methods of these flying machines."
+      "text": "గత దశాబ్దంలో, AI ఎంతో వేగంగా అభివృద్ధి చెందింది. ఒకప్పుడు కేవలం సైన్స్ ఫిక్షన్ సినిమాలలో కనిపించినవి, ఇప్పుడు మన నిజ జీవితంలో భాగంగా మారాయి.",
+      "image_keyword": "timeline AI evolution",
+      "subtitle": "Over the last decade, AI has evolved rapidly, moving from fiction to reality."
     },
     {
-      "text": "విమానాలు కేవలం గగనతలంలోనే కాకుండా, సముద్రాలపై, భూమి లోపల కూడా ప్రయాణించగలవని వర్ణించబడింది.",
-      "image_keyword": "multi travel vimanas",
-      "subtitle": "These Vimanas were described as capable of flying, floating on water, and even underground travel."
+      "text": "మీ స్మార్ట్‌ఫోన్‌లో వాయిస్ అసిస్టెంట్లు, ఆన్‌లైన్ షాపింగ్‌లో మీకు చూపించే సిఫార్సులు, మరియు మీరు చూసే ఓటీటీ కంటెంట్ అన్నీ AI ద్వారానే పనిచేస్తాయి.",
+      "image_keyword": "smartphone AI assistant shopping recommendations",
+      "subtitle": "Voice assistants, online shopping recommendations, and streaming content all use AI."
     },
     {
-      "text": "ఈ వాహనాల కోసం పగడపు రాయిలతో తయారు చేసిన ఇంధనం, జీవశక్తి, ధ్వని తరంగాలు వాడేవారని పేర్కొనబడింది.",
-      "image_keyword": "vimana ancient energy source",
-      "subtitle": "They were powered by crystals, life energy, and sound frequencies, as per the texts."
+      "text": "ఇది కేవలం మొదలు మాత్రమే. రాబోయే కాలంలో AI ఇంకా ఎన్నో అద్భుతాలను సృష్టించబోతోంది. AI గురించి మరింత లోతుగా తెలుసుకోవడానికి మాతోనే ఉండండి.",
+      "image_keyword": "future AI innovations",
+      "subtitle": "This is just the beginning. AI will create more wonders. Stay with us to learn more."
     },
     {
-      "text": "ఇలాంటి టెక్నాలజీ మనం కనుక్కోవడానికి శతాబ్దాల సమయం పడుతుంది అనిపిస్తుంది.",
-      "image_keyword": "futuristic ancient tech",
-      "subtitle": "Such technology may take centuries for us to rediscover, even today."
-    },
-    {
-      "text": "హంపీ, ఎల్లోరా లాంటి ప్రాచీన ప్రదేశాల్లో విమానాల ఆకారాలతో కూడిన శిల్పాలు ఇప్పటికీ కనిపిస్తున్నాయి.",
-      "image_keyword": "hampi vimana carvings",
-      "subtitle": "Vimana-like carvings are still visible in places like Hampi and Ellora."
-    },
-    {
-      "text": "ఈ శిల్పాల వెనుక ఉన్న విజ్ఞానం కోల్పోయిందా? లేక దాచిపెట్టబడిందా అనే అనుమానం ఆలోచించాల్సిన విషయం.",
-      "image_keyword": "lost or hidden technology",
-      "subtitle": "We must ask—was this knowledge lost, or deliberately hidden?"
-    },
-    {
-      "text": "కొన్ని విమానాలు దృష్టికి కనిపించకుండా ప్రయాణించగలవని గ్రంథాల్లో ఉంది.",
-      "image_keyword": "invisible flying machines",
-      "subtitle": "Some Vimanas were described as capable of becoming invisible during flight."
-    },
-    {
-      "text": "ఇది కేవలం కల్పనా కాదు – ఎందుకంటే పాత గ్రంథాల్లో మానవ నిర్మిత శక్తులకు అందని వివరాలు ఉన్నాయి.",
-      "image_keyword": "ancient knowledge unexplained",
-      "subtitle": "It may not be mere fiction—because these texts describe mechanisms beyond our understanding."
-    },
-    {
-      "text": "మానవుని జ్ఞానం ఎంత లోతుగా ఉండిందో ఈ విమానాల కథలు తెలియజేస్తున్నాయి.",
-      "image_keyword": "depth of ancient wisdom",
-      "subtitle": "The story of Vimanas shows how deep human knowledge was in ancient times."
-    },
-    {
-      "text": "వైమానిక శాస్త్రం ఒక పుస్తకం కాదు – అది మన పూర్వీకుల శాస్త్రీయ విజ్ఞానానికి నిలువెత్తు సాక్ష్యం!",
-      "image_keyword": "vaimanika ancient proof",
-      "subtitle": "Vaimanika Shastra isn’t just a book – it’s a standing proof of ancient scientific wisdom!"
+      "text": "తదుపరి భాగంలో, మన రోజువారీ జీవితంలో AI ఎలా అంతర్భాగంగా మారిందో చూద్దాం. మర్చిపోకుండా మా ఛానెల్‌ని సబ్‌స్క్రైబ్ చేయండి.",
+      "image_keyword": "subscribe channel button",
+      "subtitle": "In the next part, we'll see how AI is integral to our daily lives. Don't forget to subscribe."
     }
   ]
 }
