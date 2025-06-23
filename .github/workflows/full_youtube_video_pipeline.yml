@@ -37,13 +37,25 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    # - name: 🛠️ Generate Videos from scenes/*.json
-    #   env:
-    #     AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
-    #     AZURE_REGION: ${{ secrets.AZURE_REGION }}
-    #     PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-    #   run: |
-    #     python video_generator.py
+    - name: 🛠️ Generate Videos from scenes/*.json
+      env:
+        AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+        AZURE_REGION: ${{ secrets.AZURE_REGION }}
+        PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      run: |
+        python video_generator.py
+
+    - name: 📦 Upload Generated Output as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-output
+        path: output/
+
+    - name: 📥 Download Output for Combining
+      uses: actions/download-artifact@v4
+      with:
+        name: generated-output
+        path: output
 
     - name: 🎬 Combine with Intro/Outro
       run: |
@@ -56,8 +68,7 @@ jobs:
         echo "$GOOGLE_API_TOKEN_B64" | base64 -d > youtube_token.pickle
         python upload_all_to_youtube.py
 
-    - name: 📁 Upload Final Combined Videos as Artifact (Optional)
-      uses: actions/upload-artifact@v4
-      with:
-        name: combined-videos
-        path: final_combined/
+    - name: 🧹 Clean up output and final_combined folders
+      run: |
+        rm -rf output/
+        rm -rf final_combined/
