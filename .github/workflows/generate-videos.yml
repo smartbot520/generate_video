@@ -5,37 +5,32 @@ on:
 
 jobs:
   generate-videos:
-    runs-on: ubuntu-22.04  # More stable for Azure Speech SDK
+    runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout Repository
+      - name: 📥 Checkout code
         uses: actions/checkout@v3
 
-      - name: 🔧 Install required system libraries
+      - name: 🧱 Install ImageMagick and dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            build-essential \
-            libssl-dev \
-            libffi-dev \
-            python3-dev \
-            libasound2-dev \
-            libasound2-plugins \
-            libcurl4-openssl-dev \
-            libpython3.10 \
-            libpython3.10-dev
+          sudo apt-get install -y imagemagick fonts-dejavu-core libasound2-dev libcurl4-openssl-dev
+          sudo sed -i 's/rights="none" pattern="TEXT"/rights="read|write"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="LABEL"/rights="read|write"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="URL"/rights="read|write"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="HTTPS"/rights="read|write"/' /etc/ImageMagick-6/policy.xml
+          sudo sed -i 's/rights="none" pattern="HTTP"/rights="read|write"/' /etc/ImageMagick-6/policy.xml
 
       - name: 🐍 Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: 📦 Install Python Dependencies
+      - name: 📦 Install Python dependencies
         run: |
-          pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 🎬 Run Video Generator
+      - name: 🎬 Run video generator
         env:
           AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
           AZURE_REGION: ${{ secrets.AZURE_REGION }}
