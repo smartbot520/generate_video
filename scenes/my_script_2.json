@@ -1,39 +1,39 @@
 {
   "metadata": {
-    "title": "నమ్మలేని నిజాలు: AI యొక్క 'జ్ఞానం' పరిమితులు - పార్ట్ 13",
-    "description": "AI కి ఎంత తెలుసు? దాని 'జ్ఞానం' వెనుకనున్న నమ్మలేని పరిమితులు, షాకింగ్ నిజాలు! #AIKnowledge #AILimitations #CommonSenseAI #AIUnderstanding #TeluguAI",
-    "tags": ["telugu", "unbelievable facts", "AI", "knowledge", "limitations", "common sense", "understanding", "shorts", "part 13"]
+    "title": "నమ్మలేని నిజాలు: AI 'మర్చిపోయే' రహస్యం - పార్ట్ 17",
+    "description": "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ (AI) కొన్నిసార్లు ఎలా 'మర్చిపోతుందో' తెలుసా? దాని వెనుకనున్న వింత రహస్యాలు! #AIForgetting #CatastrophicForgetting #AIStability #MemoryInAI #TeluguAI",
+    "tags": ["telugu", "unbelievable facts", "AI", "forgetting", "catastrophic", "memory", "stability", "shorts", "part 17"]
   },
   "scenes": [
     {
-      "text": "నమ్మలేని AI నిజాల సిరీస్‌లో, AI 'జ్ఞానం' యొక్క పరిమితులు, దాని వెనుక ఉన్న రహస్యాలు చూద్దాం!",
-      "image_keyword": "AI robot confused question mark",
-      "subtitle": "In the unbelievable AI facts series, let's look at the limitations of AI's 'knowledge' and the secrets behind it!"
+      "text": "నమ్మలేని AI నిజాల సిరీస్‌లో, AI కొన్నిసార్లు ఎలా 'మర్చిపోతుందో' తెలుసుకుందాం!",
+      "image_keyword": "robot with confused expression",
+      "subtitle": "In the unbelievable AI facts series, this time let's find out how AI sometimes 'forgets'!"
     },
     {
-      "text": "మీకు తెలుసా? AI కి 'కామన్ సెన్స్' లేదు. మనుషులకు సహజంగా తెలిసిన చాలా విషయాలు AI కి నేర్పించాలి!",
-      "image_keyword": "human common sense vs AI",
-      "subtitle": "Did you know? AI lacks 'common sense'. Many things that humans naturally know have to be taught to AI!"
+      "text": "మీకు తెలుసా? ఒక AI మోడల్‌కు కొత్త డేటా నేర్పిస్తే, అది పాత డేటాను 'మర్చిపోవచ్చు'! దీన్ని 'క్యాటస్ట్రోఫిక్ ఫర్గాటింగ్' అంటారు.",
+      "image_keyword": "AI data fading memory",
+      "subtitle": "Did you know? If an AI model is taught new data, it might 'forget' old data! This is called 'catastrophic forgetting'."
     },
     {
-      "text": "ఒక AI మోడల్ ప్రపంచం గురించి దానికి ఇచ్చిన డేటా నుండి మాత్రమే నేర్చుకుంటుంది. డేటా లేకపోతే, దానికి తెలియదు!",
-      "image_keyword": "empty book AI",
-      "subtitle": "An AI model only learns about the world from the data it's given. If there's no data, it doesn't know!"
+      "text": "ఒక AI ని టెస్ట్ చేయడానికి, దానికి కొన్ని చిత్రాలు చూపించి, ఆ తర్వాత అదే చిత్రాలను మళ్ళీ చూపిస్తే, అది వాటిని గుర్తుపట్టకపోవచ్చు!",
+      "image_keyword": "AI not recognizing image",
+      "subtitle": "To test an AI, if you show it some images and then show the same images again, it might not recognize them!"
     },
     {
-      "text": "AI 'అర్థం చేసుకోవడం' అంటే అది డేటాను విశ్లేషించడం మాత్రమే. అది నిజంగా మానవుడిలాగా 'ఫీలింగ్స్' లేదా 'అనుభవాలు' కలిగి ఉండదు.",
-      "image_keyword": "AI analyzing data, no emotion",
-      "subtitle": "AI 'understanding' means it only analyzes data. It doesn't truly have 'feelings' or 'experiences' like a human."
+      "text": "AI మెదడులో సమాచారం ఎలా నిల్వ ఉంటుందో పూర్తిగా అర్థం చేసుకోవడం చాలా కష్టం. ఇది మానవ మెదడుకు కూడా వర్తిస్తుంది.",
+      "image_keyword": "complex AI memory storage",
+      "subtitle": "It's very difficult to fully understand how information is stored in the AI brain. This also applies to the human brain."
     },
     {
-      "text": "ఒక AI మోడల్‌ను ఒక పనికి శిక్షణ ఇస్తే, అది వేరే పనిని చేయలేదు. ఉదాహరణకు, మాట్లాడే AI, డ్రైవ్ చేయలేదు. **అది దాని పరిమితి!**",
-      "image_keyword": "robot stuck doing one task",
-      "subtitle": "If an AI model is trained for one task, it cannot do another. For example, a talking AI cannot drive. **That's its limitation!**"
+      "text": "కొన్ని AI సిస్టమ్స్‌ను 'మర్చిపోకుండా' ఉండేలా చేయడానికి, వాటికి పాత డేటాను మళ్ళీ మళ్ళీ చూపిస్తారు. **ఇది చాలా సమయం తీసుకునే పని!**",
+      "image_keyword": "AI continuously learning data",
+      "subtitle": "To prevent some AI systems from 'forgetting', they are shown old data repeatedly. **This is a very time-consuming task!**"
     },
     {
-      "text": "AI 'జ్ఞానం' ఎంత పరిమితంగా ఉందో చూశారు కదా! ఈ నిజాలు మీకు ఎలా అనిపించాయి? తదుపరి భాగంలో మరెన్నో ఆశ్చర్యాలు!",
-      "image_keyword": "AI brain with missing pieces",
-      "subtitle": "You've seen how limited AI's 'knowledge' is, right! How did these facts make you feel? More surprises in the next part!"
+      "text": "AI 'మర్చిపోయే' రహస్యం ఎంత విచిత్రంగా ఉందో చూశారు కదా! ఈ నిజాలు మీకు ఎలా అనిపించాయి? తదుపరి భాగంలో మరెన్నో ఆశ్చర్యాలు!",
+      "image_keyword": "person confused AI memory",
+      "subtitle": "You've seen how strange AI's 'forgetting' secret is, right! How did these facts make you feel? More surprises in the next part!"
     }
   ]
 }
