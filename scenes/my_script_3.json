@@ -1,39 +1,39 @@
 {
   "metadata": {
-    "title": "నమ్మలేని నిజాలు: AI యొక్క 'జ్ఞానం' పరిమితులు - పార్ట్ 13",
-    "description": "AI కి ఎంత తెలుసు? దాని 'జ్ఞానం' వెనుకనున్న నమ్మలేని పరిమితులు, షాకింగ్ నిజాలు! #AIKnowledge #AILimitations #CommonSenseAI #AIUnderstanding #TeluguAI",
-    "tags": ["telugu", "unbelievable facts", "AI", "knowledge", "limitations", "common sense", "understanding", "shorts", "part 13"]
+    "title": "నమ్మలేని నిజాలు: AI లోని 'సున్నితత్వం' - పార్ట్ 18",
+    "description": "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ (AI) ఎంత సున్నితంగా ఉంటుందో తెలుసా? దాని వెనుకనున్న ఆశ్చర్యకరమైన నిజాలు! #AISensitivity #AIRobustness #Perturbation #FragileAI #TeluguAI",
+    "tags": ["telugu", "unbelievable facts", "AI", "sensitivity", "robustness", "fragile", "shorts", "part 18"]
   },
   "scenes": [
     {
-      "text": "నమ్మలేని AI నిజాల సిరీస్‌లో, AI 'జ్ఞానం' యొక్క పరిమితులు, దాని వెనుక ఉన్న రహస్యాలు చూద్దాం!",
-      "image_keyword": "AI robot confused question mark",
-      "subtitle": "In the unbelievable AI facts series, let's look at the limitations of AI's 'knowledge' and the secrets behind it!"
+      "text": "నమ్మలేని AI నిజాల సిరీస్‌లో, AI ఎంత సున్నితంగా ఉంటుందో తెలుసుకుందాం!",
+      "image_keyword": "delicate AI system",
+      "subtitle": "In the unbelievable AI facts series, this time let's find out how sensitive AI is!"
     },
     {
-      "text": "మీకు తెలుసా? AI కి 'కామన్ సెన్స్' లేదు. మనుషులకు సహజంగా తెలిసిన చాలా విషయాలు AI కి నేర్పించాలి!",
-      "image_keyword": "human common sense vs AI",
-      "subtitle": "Did you know? AI lacks 'common sense'. Many things that humans naturally know have to be taught to AI!"
+      "text": "మీకు తెలుసా? ఒక చిత్రంలో ఒక పిక్సెల్‌ను మార్చినా, AI దాన్ని పూర్తిగా వేరే విధంగా గుర్తించగలదు! ఇది చాలా సున్నితత్వం!",
+      "image_keyword": "single pixel change AI",
+      "subtitle": "Did you know? Even changing one pixel in an image can make AI identify it completely differently! This is extreme sensitivity!"
     },
     {
-      "text": "ఒక AI మోడల్ ప్రపంచం గురించి దానికి ఇచ్చిన డేటా నుండి మాత్రమే నేర్చుకుంటుంది. డేటా లేకపోతే, దానికి తెలియదు!",
-      "image_keyword": "empty book AI",
-      "subtitle": "An AI model only learns about the world from the data it's given. If there's no data, it doesn't know!"
+      "text": "AI సిస్టమ్స్‌కు శిక్షణ ఇచ్చిన వాతావరణం మారితే, అవి సరిగ్గా పనిచేయకపోవచ్చు. ఉదాహరణకు, చీకటిలో ఫేషియల్ రికగ్నిషన్ కష్టమవుతుంది.",
+      "image_keyword": "facial recognition dark",
+      "subtitle": "If the environment in which AI systems are trained changes, they might not work correctly. For example, facial recognition is difficult in the dark."
     },
     {
-      "text": "AI 'అర్థం చేసుకోవడం' అంటే అది డేటాను విశ్లేషించడం మాత్రమే. అది నిజంగా మానవుడిలాగా 'ఫీలింగ్స్' లేదా 'అనుభవాలు' కలిగి ఉండదు.",
-      "image_keyword": "AI analyzing data, no emotion",
-      "subtitle": "AI 'understanding' means it only analyzes data. It doesn't truly have 'feelings' or 'experiences' like a human."
+      "text": "మానవ మెదడుకు ఉన్నంత 'స్థిరత్వం' AI కి ఉండదు. ఇది కొత్త, ఊహించని పరిస్థితుల్లో త్వరగా పొరబడగలదు.",
+      "image_keyword": "unstable AI robot",
+      "subtitle": "AI does not have the same 'stability' as the human brain. It can easily make mistakes in new, unexpected situations."
     },
     {
-      "text": "ఒక AI మోడల్‌ను ఒక పనికి శిక్షణ ఇస్తే, అది వేరే పనిని చేయలేదు. ఉదాహరణకు, మాట్లాడే AI, డ్రైవ్ చేయలేదు. **అది దాని పరిమితి!**",
-      "image_keyword": "robot stuck doing one task",
-      "subtitle": "If an AI model is trained for one task, it cannot do another. For example, a talking AI cannot drive. **That's its limitation!**"
+      "text": "ఈ సున్నితత్వం వల్ల AI ని హ్యాక్ చేయడం లేదా తప్పుదారి పట్టించడం సులభం అవుతుంది. అందుకే AI సెక్యూరిటీ చాలా ముఖ్యం.",
+      "image_keyword": "hacker exploiting AI weakness",
+      "subtitle": "This sensitivity makes it easier to hack or mislead AI. That's why AI security is very important."
     },
     {
-      "text": "AI 'జ్ఞానం' ఎంత పరిమితంగా ఉందో చూశారు కదా! ఈ నిజాలు మీకు ఎలా అనిపించాయి? తదుపరి భాగంలో మరెన్నో ఆశ్చర్యాలు!",
-      "image_keyword": "AI brain with missing pieces",
-      "subtitle": "You've seen how limited AI's 'knowledge' is, right! How did these facts make you feel? More surprises in the next part!"
+      "text": "AI ఎంత సున్నితంగా ఉందో చూశారు కదా! ఈ నిజాలు మీకు ఎలా అనిపించాయి? తదుపరి భాగంలో మరెన్నో ఆశ్చర్యాలు!",
+      "image_keyword": "person shocked by AI fragility",
+      "subtitle": "You've seen how sensitive AI is, right! How did these facts make you feel? More surprises in the next part!"
     }
   ]
 }
