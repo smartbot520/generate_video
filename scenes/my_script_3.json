@@ -1,39 +1,39 @@
 {
   "metadata": {
-    "title": "నమ్మలేని నిజాలు: AI లోని 'సున్నితత్వం' - పార్ట్ 18",
-    "description": "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ (AI) ఎంత సున్నితంగా ఉంటుందో తెలుసా? దాని వెనుకనున్న ఆశ్చర్యకరమైన నిజాలు! #AISensitivity #AIRobustness #Perturbation #FragileAI #TeluguAI",
-    "tags": ["telugu", "unbelievable facts", "AI", "sensitivity", "robustness", "fragile", "shorts", "part 18"]
+    "title": "నమ్మలేని నిజాలు: AI లోని 'అదృశ్య పక్షపాతం' - పార్ట్ 23",
+    "description": "ఆర్టిఫిషియల్ ఇంటెలిజెన్స్ (AI) లో 'పక్షపాతం' ఎలా వస్తుందో తెలుసా? దాని వెనుకనున్న నమ్మలేని రహస్యాలు! #AIBias #AlgorithmicBias #FairAI #EthicalAI #TeluguAI",
+    "tags": ["telugu", "unbelievable facts", "AI", "bias", "algorithmic bias", "fairness", "ethics", "shorts", "part 23"]
   },
   "scenes": [
     {
-      "text": "నమ్మలేని AI నిజాల సిరీస్‌లో, AI ఎంత సున్నితంగా ఉంటుందో తెలుసుకుందాం!",
-      "image_keyword": "delicate AI system",
-      "subtitle": "In the unbelievable AI facts series, this time let's find out how sensitive AI is!"
+      "text": "నమ్మలేని AI నిజాల సిరీస్‌లో, AI లోని 'అదృశ్య పక్షపాతం' గురించి తెలుసుకుందాం!",
+      "image_keyword": "imbalanced scale AI bias",
+      "subtitle": "In the unbelievable AI facts series, this time let's learn about AI's 'invisible bias'!"
     },
     {
-      "text": "మీకు తెలుసా? ఒక చిత్రంలో ఒక పిక్సెల్‌ను మార్చినా, AI దాన్ని పూర్తిగా వేరే విధంగా గుర్తించగలదు! ఇది చాలా సున్నితత్వం!",
-      "image_keyword": "single pixel change AI",
-      "subtitle": "Did you know? Even changing one pixel in an image can make AI identify it completely differently! This is extreme sensitivity!"
+      "text": "మీకు తెలుసా? AI కి శిక్షణ ఇచ్చే డేటాలో పక్షపాతం ఉంటే, AI కూడా అదే పక్షపాతాన్ని నేర్చుకుంటుంది!",
+      "image_keyword": "biased dataset human faces",
+      "subtitle": "Did you know? If the data used to train AI is biased, AI also learns that same bias!"
     },
     {
-      "text": "AI సిస్టమ్స్‌కు శిక్షణ ఇచ్చిన వాతావరణం మారితే, అవి సరిగ్గా పనిచేయకపోవచ్చు. ఉదాహరణకు, చీకటిలో ఫేషియల్ రికగ్నిషన్ కష్టమవుతుంది.",
-      "image_keyword": "facial recognition dark",
-      "subtitle": "If the environment in which AI systems are trained changes, they might not work correctly. For example, facial recognition is difficult in the dark."
+      "text": "కొన్ని AI సిస్టమ్స్ ఒక రకమైన వ్యక్తులను, జాతులను తప్పుగా గుర్తించగలవు. ఉదాహరణకు, ముఖ గుర్తింపులో కొన్ని రంగుల వారికి సమస్యలు వస్తాయి.",
+      "image_keyword": "AI misidentifying dark skin",
+      "subtitle": "Some AI systems can misidentify certain types of people or races. For example, facial recognition has problems with certain skin tones."
     },
     {
-      "text": "మానవ మెదడుకు ఉన్నంత 'స్థిరత్వం' AI కి ఉండదు. ఇది కొత్త, ఊహించని పరిస్థితుల్లో త్వరగా పొరబడగలదు.",
-      "image_keyword": "unstable AI robot",
-      "subtitle": "AI does not have the same 'stability' as the human brain. It can easily make mistakes in new, unexpected situations."
+      "text": "నియామకాల్లో AI ని ఉపయోగిస్తే, అది కొన్ని గ్రూపుల వారికి తక్కువ మార్కులు ఇవ్వగలదు. ఎందుకంటే, అది పాత డేటా నుండి నేర్చుకుంటుంది.",
+      "image_keyword": "AI hiring process discrimination",
+      "subtitle": "If AI is used in hiring, it can give lower scores to certain groups. Because it learns from old data."
     },
     {
-      "text": "ఈ సున్నితత్వం వల్ల AI ని హ్యాక్ చేయడం లేదా తప్పుదారి పట్టించడం సులభం అవుతుంది. అందుకే AI సెక్యూరిటీ చాలా ముఖ్యం.",
-      "image_keyword": "hacker exploiting AI weakness",
-      "subtitle": "This sensitivity makes it easier to hack or mislead AI. That's why AI security is very important."
+      "text": "ఈ పక్షపాతం చాలా ప్రమాదకరం. అందుకే AI ని తయారు చేసేటప్పుడు, డేటాను చాలా జాగ్రత్తగా ఎంపిక చేయాలి. **ఇది AI యొక్క అతి పెద్ద రహస్యాలలో ఒకటి!**",
+      "image_keyword": "ethical AI compass",
+      "subtitle": "This bias is very dangerous. That's why when creating AI, data must be selected very carefully. **This is one of AI's biggest secrets!**"
     },
     {
-      "text": "AI ఎంత సున్నితంగా ఉందో చూశారు కదా! ఈ నిజాలు మీకు ఎలా అనిపించాయి? తదుపరి భాగంలో మరెన్నో ఆశ్చర్యాలు!",
-      "image_keyword": "person shocked by AI fragility",
-      "subtitle": "You've seen how sensitive AI is, right! How did these facts make you feel? More surprises in the next part!"
+      "text": "AI లోని 'అదృశ్య పక్షపాతం' ఎంత ప్రమాదకరంగా ఉందో చూశారు కదా! ఈ నిజాలు మీకు ఎలా అనిపించాయి? తదుపరి భాగంలో మరెన్నో ఆశ్చర్యాలు!",
+      "image_keyword": "person revealing hidden AI bias",
+      "subtitle": "You've seen how dangerous AI's 'invisible bias' is, right! How did these facts make you feel? More surprises in the next part!"
     }
   ]
 }
