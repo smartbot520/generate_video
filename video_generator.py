@@ -50,7 +50,7 @@ def generate_tts(text, out_path):
 
     ssml = f"""
     <speak version='1.0' xml:lang='te-IN'>
-        <voice name='te-IN-ShrutiNeural'>
+        <voice name='en-IN-NeerjaNeural'>
             <prosody rate='+15.00%' pitch='+5%'>{text}</prosody>
         </voice>
     </speak>
